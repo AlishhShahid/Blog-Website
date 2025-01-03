@@ -1,7 +1,7 @@
 "use client"
 import React, { useState, useEffect } from 'react';
 
-const CommentSec = () => {
+const Comment_section = () => {
   const [comments, setComments] = useState<{ username: string, comment: string }[]>([]);
   const [username, setUsername] = useState('');
   const [comment, setComment] = useState('');
@@ -95,4 +95,4 @@ const CommentSec = () => {
   );
 }
 
-export default CommentSec;
+export default Comment_section;
